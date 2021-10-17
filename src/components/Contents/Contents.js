@@ -24,7 +24,7 @@ const Contents = () => {
     return (
         <div className="content-container">
              <div className="person-container">
-                 <h3>Persons: {persons.length} </h3>
+                 
                 {
                     persons.map(person => <Persons 
                         key={person.id}

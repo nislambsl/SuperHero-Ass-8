@@ -2,8 +2,18 @@
     text-align: center;
     display: grid;
     grid-template-columns: 3fr 1fr ;
+   
 }
 .person-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     border-right: 1px solid lightgrey;
-    margin-right: 5px;
+}
+.card-container{
+    margin: 15px 8px;
+    border: 2px solid lightseagreen;
+    padding-top: 50px;
+    height: 30%;
+    border-radius: 8px;
+    box-shadow:5px 10px gray;
 }

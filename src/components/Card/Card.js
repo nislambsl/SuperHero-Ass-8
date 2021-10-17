@@ -16,7 +16,8 @@ const Card = (props) => {
            <h6>No of Person Added: {props.card.length}</h6>
            <br />
            <h6>Name of Added Person: <br />{name} </h6>
-           <h6>Total Salary: {total}</h6>
+           <br />
+           <h5>Total Salary: {total}</h5>
           
         </div>
     );
