@@ -8,14 +8,15 @@ const Card = (props) => {
     }
     let name = " ";
     for(const person of card){
-        name = name + ' ' + person.name;
+        name = name + person.name +',  ';
     }
     return (
         <div>
            <h3>Order Summary</h3>
            <h6>No of Person Added: {props.card.length}</h6>
            <br />
-           <h6>Name of Added Person: <br />{name} </h6>
+           <h6>Name of Added Person:  {name} </h6>
+           
            <br />
            <h5>Total Salary: {total}</h5>
           

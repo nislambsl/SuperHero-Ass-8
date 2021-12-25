@@ -18,7 +18,7 @@ const contact1 = <FontAwesomeIcon icon={faMobileAlt} />
             <div className="personal-card">
             <img className="image" src={img} alt="" />
             
-            <h4>Name: {name}</h4>
+            <h5>Name: {name}</h5>
             <h6>Age: {age}</h6>
             <h5>Job: {job}</h5>
             <h6>Salary: {salary}</h6>
